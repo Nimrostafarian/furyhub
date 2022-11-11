@@ -3,7 +3,7 @@ on: [ push, pull_request ]
 
 jobs:
   amd64:
-    name: ochain Docker
+    name: fury-hub Docker
     environment: test
     runs-on: ubuntu-latest
     steps:

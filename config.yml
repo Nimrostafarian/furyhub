@@ -1,22 +1,22 @@
 accounts:
   - name: michael
-    coins: ["10000000nom"]
+    coins: ["10000000fury"]
   - name: charles
-    coins: ["10000000nom"]
+    coins: ["10000000fury"]
   - name: spout
-    coins: ["10000000nom"]
+    coins: ["10000000fury"]
 build:
-  binary: "ochaind"
+  binary: "furyd"
 validator:
   name: charles
-  staked: "10000000nom"
+  staked: "10000000fury"
 client:
   vuex:
     path: "vue/src/store"
 faucet:
   name: spout
-  coins: ["10nom"]
-  coins_max: ["1000nom"]
+  coins: ["10fury"]
+  coins_max: ["1000fury"]
   port: 4500
 init:
   keyring-backend: "os"
@@ -32,5 +32,5 @@ genesis:
   app_state:
     staking:
       params:
-        bond_denom: "nom"
+        bond_denom: "fury"
 

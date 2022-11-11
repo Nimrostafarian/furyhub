@@ -88,7 +88,7 @@ import (
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 )
 
-const Name = "ochain"
+const Name = "fury-hub"
 
 // this line is used by starport scaffolding # stargate/wasm/app/enabledProposals
 

@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	StakeTokenDenom = "rowan"
+	StakeTokenDenom = "fury"
 )
 
 type AuthAccountValueCoin struct {
